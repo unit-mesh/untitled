@@ -1,8 +1,6 @@
 package cc.unitmesh.untitled.demo;
 
 public class MathHelperTest {
-    // 寻找两个正序数组的中位数
+    // Find the median of two sorted arrays.
 
-
-    // 删除链表的倒数第 N 个结点
 }
