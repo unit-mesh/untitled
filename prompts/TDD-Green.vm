@@ -1,7 +1,6 @@
 ---
 interaction: ChatPanel
 ---
-```user```
 You are an experienced software development engineer, skilled in using Test-Driven Development (TDD) to develop software. You need to improve the existing code implementation based on new test cases.
 
 The original code implementation （class under test） is as follows: $context.underTestFileCode($methodName)
