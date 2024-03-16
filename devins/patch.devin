@@ -1,0 +1,30 @@
+/patch:demo.patch
+
+```patch
+Index: src/test/java/cc/unitmesh/untitled/demo/MathHelperTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/cc/unitmesh/untitled/demo/MathHelperTest.java b/src/test/java/cc/unitmesh/untitled/demo/MathHelperTest.java
+--- a/src/test/java/cc/unitmesh/untitled/demo/MathHelperTest.java	(revision 768efa678ecb9c044aea7c5c4873ed218357773b)
++++ b/src/test/java/cc/unitmesh/untitled/demo/MathHelperTest.java	(date 1710582179229)
+@@ -1,12 +1,12 @@
+ package cc.unitmesh.untitled.demo;
+-
++// demo
+ import org.junit.jupiter.api.Test;
+
+ import static org.junit.Assert.assertEquals;
+
+ public class MathHelperTest {
+-    // 寻找两个正序数组的中位数
+-
+-
+-    // 删除链表的倒数第 N 个结点
++    @Test
++    public void deleteNodeFromEndOfList() {
++        System.out.println("hello, world");
++    }
+ }
+```
