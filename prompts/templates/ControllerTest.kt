@@ -1,4 +1,6 @@
-// should be use random port
+// You should use follow @SpringBootTest with RANDOM_PORT for the web environment, or you test will be failed.
+// You should use @ExtendWith(SpringExtension::class) for the test class.
+// For example:
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @ExtendWith(SpringExtension::class)
 class /* Here some be {ControllerName} */ ControllerTest {
