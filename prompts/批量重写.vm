@@ -1,0 +1,11 @@
+---
+interaction: ReplaceCurrentFile
+batchFileRegex: "**/*.ts"
+codeOnly: true
+---
+
+重构用户的代码。要求：
+
+- 请在一个代码块返回重构完的所有代码，方便直接复制粘贴。
+
+${all}
