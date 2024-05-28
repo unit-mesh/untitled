@@ -1,8 +1,9 @@
-class Prnz {
-    constructor(public name: string) {}
+class Orz {
+    constructor(public name: string) {
+    }
 }
 
-class Human extends Prnz {
+class Human extends Orz {
     constructor(name: string, public age: number) {
         super(name);
     }
@@ -11,5 +12,13 @@ class Human extends Prnz {
 class Man extends Human {
     constructor(name: string, age: number, public job: string) {
         super(name, age);
+    }
+
+    ageGet() {
+        return this.ageGet
+    }
+
+    format() {
+        return this.ageGet()
     }
 }
