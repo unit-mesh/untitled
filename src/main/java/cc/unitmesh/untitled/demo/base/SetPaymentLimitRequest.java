@@ -1,9 +1,22 @@
 package cc.unitmesh.untitled.demo.base;
 
-import lombok.Data;
-
-@Data
 public class SetPaymentLimitRequest {
     private Long accountId;
     private Double newLimit;
+
+    public void setAccountId(Long accountId) {
+        this.accountId = accountId;
+    }
+
+    public Long getAccountId() {
+        return accountId;
+    }
+
+    public void setNewLimit(Double newLimit) {
+        this.newLimit = newLimit;
+    }
+
+    public Double getNewLimit() {
+        return newLimit;
+    }
 }
