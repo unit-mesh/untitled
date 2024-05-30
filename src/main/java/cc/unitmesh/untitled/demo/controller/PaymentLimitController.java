@@ -1,7 +1,7 @@
 package cc.unitmesh.untitled.demo.controller;
 
-import cc.unitmesh.untitled.demo.base.SetPaymentLimitRequest;
-import cc.unitmesh.untitled.demo.base.SetPaymentLimitResponse;
+import cc.unitmesh.untitled.demo.dto.SetPaymentLimitRequest;
+import cc.unitmesh.untitled.demo.dto.SetPaymentLimitResponse;
 import cc.unitmesh.untitled.demo.entity.PaymentLimit;
 import cc.unitmesh.untitled.demo.exception.BusinessException;
 import cc.unitmesh.untitled.demo.service.PaymentLimitService;

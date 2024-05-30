@@ -1,4 +1,4 @@
-package cc.unitmesh.untitled.demo.base;
+package cc.unitmesh.untitled.demo.dto;
 
 public class SetPaymentLimitResponse {
     private String message;
