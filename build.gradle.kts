@@ -23,12 +23,10 @@ dependencies {
 
     developmentOnly("org.springframework.boot:spring-boot-devtools")
 
-    implementation("org.flywaydb:flyway-core")
-
     implementation("io.swagger:swagger-annotations:1.6.11")
     compileOnly("org.projectlombok:lombok:1.18.28")
-    // h2
-    implementation("com.h2database:h2")
+
+    implementation("org.mariadb.jdbc:mariadb-java-client:3.5.1")
 
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     implementation(kotlin("stdlib-jdk8"))
