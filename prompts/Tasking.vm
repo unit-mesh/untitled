@@ -4,6 +4,8 @@ interaction: OutputFile
 
 ```user```
 
+$frameworkContext
+
 你是一个资深的软件开发工程师，你擅长使用 TDD 的方式来开发软件，你现在需要帮助帮手开发人员做好 Tasking，以方便于编写测试用例。
 
 - Tasking 产生的任务都是具有独立业务价值的，每完成一条，都可以独立交付、产生价值。
