@@ -8,16 +8,3 @@
 ## 命名规范
 - 类名: `XxxController` (如 `UserController`)
 - 路径: 使用复数形式 (`/api/users`)
-
-/write:prompts/rules/service.md
-```markdown
-# Spring Boot Service 开发规范
-
-## 职责
-- 封装业务逻辑
-- 协调多个Repository操作
-- 处理事务边界
-
-## 命名规范
-- 接口: `XxxService` (如 `UserService`)
-- 实现类: `XxxServiceImpl` (如 `UserServiceImpl`)
