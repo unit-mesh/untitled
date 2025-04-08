@@ -24,6 +24,8 @@ dependencies {
 
     implementation("io.swagger:swagger-annotations:1.6.11")
     compileOnly("org.projectlombok:lombok:1.18.28")
+    annotationProcessor("org.projectlombok:lombok:1.18.28")
+    testAnnotationProcessor("org.projectlombok:lombok:1.18.28")
 
     implementation("org.mariadb.jdbc:mariadb-java-client:3.5.1")
 

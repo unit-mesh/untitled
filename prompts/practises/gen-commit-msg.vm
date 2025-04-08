@@ -1,6 +1,8 @@
 根据如下的内容，生成提交信息：
 
-$diff
+```diff
+${context.diffContent}
+```
 
 必须使用中文。
 

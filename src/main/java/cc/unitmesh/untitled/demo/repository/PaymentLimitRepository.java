@@ -7,4 +7,5 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface PaymentLimitRepository extends JpaRepository<PaymentLimit, Long> {
 
+    PaymentLimit findByAccountId(Long accountId);
 }
