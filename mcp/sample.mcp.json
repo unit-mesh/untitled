@@ -5,9 +5,8 @@
       "args": [
         "-y",
         "@modelcontextprotocol/server-filesystem",
-        "/Volumes/source/ai/autocrud"
-      ],
-      "disabled": true
+        "/Users/phodal/IdeaProjects/untitled"
+      ]
     },
     "echo": {
       "command": "uv",
