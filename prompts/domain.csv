@@ -1,0 +1,18 @@
+| 中文 | 代码翻译 | 描述 |
+|------|----------|------|
+| 博客 | Blog | 博客相关业务 |
+| 支付限额 | PaymentLimit | 支付限额管理 |
+| 广告 | Advertise | 广告业务 |
+| 作者 | Author | 博客作者 |
+| 博客文章 | BlogPost | 博客文章内容 |
+| 博客分类 | BlogCategory | 博客分类管理 |
+| 评论 | Comment | 博客评论 |
+| 会议 | Meeting | 会议相关业务 |
+| 场景描述 | ScenarioDescription | 业务场景描述 |
+| 创建博客请求 | CreateBlogRequest | 创建博客的请求数据 |
+| 创建评论数据 | CreateCommentDto | 创建评论的传输数据 |
+| 设置支付限额请求 | SetPaymentLimitRequest | 设置支付限额的请求数据 |
+| 公共结果 | CommonResult | 通用的业务结果封装 |
+| 错误码接口 | IErrorCode | 错误码定义接口 |
+| 结果码 | ResultCode | 业务结果状态码 |
+| 业务异常 | BusinessException | 业务逻辑异常 |
