@@ -1,0 +1,27 @@
+---
+name: "自动 patch"
+interaction: RightPanel
+actionLocation: IntentionMenu
+variables:
+  "codepath": /BlogController\.java/ { print }
+  "controllerCode": /BlogController\.java/ { cat }
+  "serviceCode": /BlogService\.java/ { cat }
+---
+
+你是一个资深的后台开发，请使用 patch 完成如下需求。
+
+需求：删除博客。
+
+现有代码：
+
+$codepath
+
+现有 Controller 代码：
+
+$controllerCode
+
+现有 Service 代码：
+
+$serviceCode
+
+请使用 patch 的方式完成需求，并使用 markdown patch 代码格式返回。

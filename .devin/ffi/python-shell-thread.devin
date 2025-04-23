@@ -1,0 +1,8 @@
+---
+name: "hello"
+interaction: RightPanel
+variables:
+  "var2": /.*ple.shire/ { thread(".shire/ffi/issue-146.py") }
+---
+
+hello, $var2

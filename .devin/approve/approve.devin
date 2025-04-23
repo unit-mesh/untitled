@@ -1,0 +1,10 @@
+---
+name: "hello"
+afterStreaming: {
+    case condition {
+        default { approvalExecute("after-approve.shire") }
+    }
+}
+---
+
+hello

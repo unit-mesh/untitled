@@ -1,0 +1,14 @@
+/database:query
+```sql
+select * from chunks
+```
+
+/database:table
+```
+autodev-index.sqlite
+```
+
+/database:column
+```
+chunks
+```
