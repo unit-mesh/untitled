@@ -1,13 +1,13 @@
 ---
 name: "寻找代码变更点"
 variables:
-  "story": /any/ { thread(".shire/shell/dify-user-story-workflow.curl.sh") | jsonpath("$.answer", true) }
+  "story": /any/ { thread(".devin/shell/dify-user-story-workflow.curl.sh") | jsonpath("$.answer", true) }
   "controllers": /.*.java/ { cat | grep("class\s+([a-zA-Z]*Controller)")  }
   "firstController": /BlogController\.java/ { print }
   "domainLanguage": /domain-language\.csv/ { cat }
 afterStreaming: {
   case condition {
-    default { execute("modify-code.shire", $story, $output) }
+    default { execute("modify-code.devin", $story, $output) }
   }
 }
 ---

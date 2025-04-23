@@ -6,7 +6,7 @@ variables:
   "controllerCode": /any/ { cat($output) }
 afterStreaming: {
   case condition {
-    default { execute("modify-service.shire", $story, $output, $controllerCode) }
+    default { execute("modify-service.devin", $story, $output, $controllerCode) }
   }
 }
 ---

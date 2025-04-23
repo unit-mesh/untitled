@@ -2,7 +2,7 @@
 name: "Design Profobuf IDL"
 actionLocation: ContextMenu
 variables:
-  "spec": /any/ { thread(".shire/shell/fetch-teamai-spec.sh") | jsonpath("$.[1].content") }
+  "spec": /any/ { thread(".devin/shell/fetch-teamai-spec.sh") | jsonpath("$.[1].content") }
 onStreamingEnd: { parseCode | saveFile | openFile }
 ---
 

@@ -3,7 +3,7 @@ name: "Commit message"
 description: "生成提交信息"
 interaction: AppendCursor
 variables:
-  "story": /any/ { thread(".shire/shell/fetch-jira.sh") | jsonpath("$.data[*].Story") }
+  "story": /any/ { thread(".devin/shell/fetch-jira.sh") | jsonpath("$.data[*].Story") }
 ---
 
 $story

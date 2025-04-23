@@ -2,7 +2,7 @@
 name: "Rewrite Controller"
 variables:
   "controllers": /BlogController.java/ { print }
-  "gen-swagger": /any/ { batch("rewrite-controller-method.shire", $controllers) }
+  "gen-swagger": /any/ { batch("rewrite-controller-method.devin", $controllers) }
 ---
 
 hi

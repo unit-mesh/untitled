@@ -2,7 +2,7 @@
 name: "添加注解"
 variables:
   "controllers": /.*.ControllerTest.java/ { print }
-  "gen-swagger": /any/ { batch("add-annotation-to-controller-test.shire", $controllers) }
+  "gen-swagger": /any/ { batch("add-annotation-to-controller-test.devin", $controllers) }
 ---
 
 hi

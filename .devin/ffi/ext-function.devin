@@ -1,9 +1,9 @@
 ---
 name: "hello"
 functions:
-  normal: ".shire/ffi/hello.py"::main(string)
+  normal: ".devin/ffi/hello.py"::main(string)
 variables:
-  "var2": /.*ple.shire/ { normal("world") }
+  "var2": /.*ple.devin/ { normal("world") }
 ---
 
 hello, $var2

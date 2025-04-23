@@ -2,13 +2,13 @@
 name: "分析需求，选择合适的代码文件"
 variables:
   "feature": "上传电影信息"
-  "story": /any/ { thread(".shire/shell/dify-user-story-workflow.curl.sh") | jsonpath("$.answer", true) }
+  "story": /any/ { thread(".devin/shell/dify-user-story-workflow.curl.sh") | jsonpath("$.answer", true) }
   "controllers": /.*.java/ { cat | grep("class\s+([a-zA-Z]*Controller)")  }
   "firstController": /BlogController\.java/ { print }
   "domainLanguage": /domain-language\.csv/ { cat }
 afterStreaming: {
   case condition {
-    default { parseCode | execute("modify-controller.shire", $story, $output) }
+    default { parseCode | execute("modify-controller.devin", $story, $output) }
   }
 }
 ---

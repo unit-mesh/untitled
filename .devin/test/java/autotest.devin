@@ -10,9 +10,9 @@ variables:
   "extContext": /build\.gradle\.kts/ { cat | grep("org.springframework.boot:spring-boot-starter-jdbc") | print("This project use Spring Framework")}
   "testTemplate": /\(.*\).java/ {
     case "$1" {
-      "Controller" { cat(".shire/templates/ControllerTest.java") }
-      "Service" { cat(".shire/templates/ServiceTest.java") }
-      default  { cat(".shire/templates/DefaultTest.java") }
+      "Controller" { cat(".devin/templates/ControllerTest.java") }
+      "Service" { cat(".devin/templates/ServiceTest.java") }
+      default  { cat(".devin/templates/DefaultTest.java") }
     }
   }
 onStreamingEnd: { parseCode | saveFile }

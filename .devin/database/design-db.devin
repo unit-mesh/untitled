@@ -1,10 +1,10 @@
 ---
 name: "设计数据库"
 variables:
-  "story": /any/ { thread(".shire/shell/github-issue.curl.sh") | jsonpath("$.body") }
+  "story": /any/ { thread(".devin/shell/github-issue.curl.sh") | jsonpath("$.body") }
 afterStreaming: {
   case condition {
-    default { execute("gen-sql.shire", $story, $output) }
+    default { execute("gen-sql.devin", $story, $output) }
   }
 }
 ---

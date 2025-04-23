@@ -6,7 +6,7 @@ variables:
 onStreamingEnd: { parseCode | saveFile($outputFile) }
 afterStreaming: {
     case condition {
-        default { execute("analysis-service.shire", $story, $output) }
+        default { execute("analysis-service.devin", $story, $output) }
     }
 }
 ---
