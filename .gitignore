@@ -37,3 +37,6 @@ out/
 .vscode/
 recording.jsonl
 model-context-protocol/
+env.autodevEnv.json
+.autodev-output
+docs/api.md

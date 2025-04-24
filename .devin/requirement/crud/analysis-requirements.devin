@@ -1,5 +1,5 @@
 ---
-name: "寻找代码变更点"
+name: "CodeChange"
 variables:
   "story": /any/ { thread(".devin/shell/dify-user-story-workflow.curl.sh") | jsonpath("$.answer", true) }
   "controllers": /.*.java/ { cat | grep("class\s+([a-zA-Z]*Controller)")  }
@@ -10,13 +10,14 @@ afterStreaming: {
     default { execute("modify-code.devin", $story, $output) }
   }
 }
+agentic: true
 ---
 
 你是一个网站资深的开发人员，能帮助我定位到代码文件。请根据如下的用户故事，以及对应的 controller 名称，选择最合适修改的 controller
 
 用户故事：
 
-$story
+$input
 
 Controller
 

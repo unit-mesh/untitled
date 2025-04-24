@@ -1,8 +1,9 @@
 ---
-name: "编写周报"
+name: "Weekly"
 description: "Code Review"
 interaction: RightPanel
 actionLocation: VcsLogMenu
+agentic: true
 ---
 
 根据如下的代码提交信息，编写我我本周的周报:

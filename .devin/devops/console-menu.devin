@@ -1,7 +1,7 @@
 ---
 name: "修复问题"
 description: "Here is a description of the action."
-interaction: RunPanel
+interaction: ChatPanel
 actionLocation: ConsoleMenu
 ---
 
