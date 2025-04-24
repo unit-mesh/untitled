@@ -1,5 +1,6 @@
 ---
 name: "CodeChange"
+description: "Analyze code changes by requirements"
 variables:
   "story": /any/ { thread(".devin/shell/dify-user-story-workflow.curl.sh") | jsonpath("$.answer", true) }
   "controllers": /.*.java/ { cat | grep("class\s+([a-zA-Z]*Controller)")  }

@@ -1,6 +1,6 @@
 ---
 name: "Weekly"
-description: "Code Review"
+description: "Generate weekly report"
 interaction: RightPanel
 actionLocation: VcsLogMenu
 agentic: true
