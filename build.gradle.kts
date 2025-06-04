@@ -18,8 +18,6 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
     implementation("org.json:json:20231013")
 
-    testImplementation("junit:junit:4.13.1")
-
     developmentOnly("org.springframework.boot:spring-boot-devtools")
 
     implementation("io.swagger:swagger-annotations:1.6.11")
@@ -30,6 +28,7 @@ dependencies {
     implementation("org.mariadb.jdbc:mariadb-java-client:3.5.1")
 
     testImplementation("org.springframework.boot:spring-boot-starter-test")
+    testImplementation("com.h2database:h2")
     implementation(kotlin("stdlib-jdk8"))
 }
 
