@@ -35,4 +35,11 @@ public class BlogController {
         BeanUtils.copyProperties(createdBlog, response);
         return createdBlog;
     }
+
+    // delete blog
+    @ApiOperation(value = "Delete a blog")
+    @DeleteMapping("/{id}")
+    public void deleteBlog(@PathVariable Long id) {
+        blogService.deleteBlog(id);
+    }
 }
