@@ -18,7 +18,7 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
     implementation("org.json:json:20231013")
 
-    developmentOnly("org.springframework.boot:spring-boot-devtools")
+//    developmentOnly("org.springframework.boot:spring-boot-devtools")
 
     implementation("io.swagger:swagger-annotations:1.6.11")
     compileOnly("org.projectlombok:lombok:1.18.28")
